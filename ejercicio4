@@ -1,2 +1,21 @@
+//ejercicio 1
+
 alert("Hola bienvenido a mi página web");
 cosole.log(alert);
+
+//ejercicio 2
+
+let nombre = "Hola,Edvin";
+console.log(nombre);
+
+//ejercicio 3
+
+let nombre = "Edvin";
+alert("Hola,Edvin");
+
+//ejercicio 4
+
+let mejorLenguaje = "JavaScript";
+let mejorLenguaje = prompt("¿cual es el lenguaje de programación que más te gusta");
+console.log(mejorLenguaje);
+
