@@ -11,11 +11,51 @@ console.log(nombre);
 //ejercicio 3
 
 let nombre = "Edvin";
-alert("Hola,Edvin");
+alert(`Hola,${nombre}`);
 
 //ejercicio 4
 
-let mejorLenguaje = "JavaScript";
 let mejorLenguaje = prompt("¿cual es el lenguaje de programación que más te gusta");
 console.log(mejorLenguaje);
+
+//ejercicio 5
+
+let valor1 = 5;
+let valor2 = 5;
+let valorResultado = valor1 + valor2;
+console.log(`la suma de ${valor1} + ${valor2} es igual a ${valorResultado}`);
+
+//ejercicio 6
+
+let valor1 = 10;
+let valor2 = 5;
+let valorResultado = valor1 - valor2;
+console.log(`la resta de ${valor1} - ${valor2} es igual a ${valorResultado}9`);
+
+//ejercicio 7
+
+let edad = 0;
+let edad = prompt("digite su edad");
+if(edad > 18){
+console.log("eres mayor de edad");
+}else(edad < 17){
+console.log("eres menor de edad");
+}
+
+//ejercicio 8 
+Crea una variable "numero" y solicita un valor con prompt. Luego, verifica si es positivo, negativo o cero utilizando un if-else y muestra el mensaje correspondiente.
+
+let numero = 0;
+let numero = prompt("digite un número positivo o negativo");
+if(numero > 0){
+console.log ("el numero es positivo");
+}else{
+if{numero < 0 ){
+console.log ("el numero es negativo");
+}else{
+console.log ("el numero es cero")
+}
+}
+
+
 
