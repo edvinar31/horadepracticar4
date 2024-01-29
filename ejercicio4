@@ -75,3 +75,21 @@ console.log("Reprobado);
 }else(nota >=7){
 console.log("Aprogado");
 }
+
+//ejercicio 11
+Utiliza Math.random para generar cualquier número aleatorio y muestra ese número en la consola..
+
+let numeroRandom = Math.random();
+console.log(numeroRandom)
+
+//ejercicio 12
+Utiliza Math.random para generar un número entero entre 1 y 10 y muestra ese número en la consola.
+
+let numeroRandom = Math.floor(Math.random()*10)+1;
+console.log(numeroRandom);
+
+//ejercicio 13
+Utiliza Math.random para generar un número entero entre 1 y 1000 y muestra ese número en la consola.
+
+let numeroRandom = Math.floor(Math.random()*1000)+1;
+console.log(numeroRandom);
